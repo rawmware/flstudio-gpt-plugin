@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "flstudio-copilot",
+  "version": "0.1.0",
+  "description": "A local FL Studio copilot for live performance capture and beginner beat building.",
+  "author": { "name": "rawmware" },
+  "extensions": { "com.openai": { "interface": {
+    "displayName": "FL Studio Copilot",
+    "shortDescription": "Control FL Studio locally",
+    "longDescription": "Arm live performance capture, preserve takes, and create drum and bass MIDI ideas in FL Studio.",
+    "developerName": "rawmware",
+    "category": "Music",
+    "capabilities": ["Interactive"],
+    "defaultPrompt": "Help me make and perform a track in FL Studio."
+  } } }
+}
